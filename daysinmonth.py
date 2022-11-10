@@ -1,6 +1,6 @@
 def dnimiesiaca_func():
-  miesiac = int(input("Podaj numer miesiąca: \n"))
-  rok = int(input("Podaj rok: \n"))
+    miesiac = int(input("Podaj numer miesiąca: \n"))
+    rok = int(input("Podaj rok: \n"))
 
   if((miesiac == 2) and ((rok % 4 == 0)  or ((rok % 100 == 0) and (rok % 400 == 0)))):
       print("Liczba dni w miesiącu to: 29");
